@@ -11,7 +11,7 @@ optionImage.forEach((image, index) => {
 	image.addEventListener("click", (e) => {
 		image.classList.add("active");
 
-		userResult.src = cpuResult.src = "/noun-fist-477914.svg";
+		userResult.src = cpuResult.src = "noun-fist-477914.svg";
 		result.textContent = " please Wait ....";
 		// ! loop through each option image again
 		optionImage.forEach((image2, index2) => {
@@ -32,9 +32,9 @@ optionImage.forEach((image, index) => {
 			let randomNumber = Math.floor(Math.random() * 3);
 			// ** create a array of cpu image options
 			let cpuImages = [
-				"/noun-fist-477914.svg",
-				"/noun-wave-477912.svg",
-				"/noun-scissors-477919.svg",
+				"noun-fist-477914.svg",
+				"noun-wave-477912.svg",
+				"noun-scissors-477919.svg",
 			];
 			//! set the CPU image  to a random option form the array of cpu image options
 			cpuResult.src = cpuImages[randomNumber];
