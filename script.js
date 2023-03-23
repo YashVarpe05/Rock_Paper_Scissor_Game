@@ -32,9 +32,9 @@ optionImage.forEach((image, index) => {
 			let randomNumber = Math.floor(Math.random() * 3);
 			// ** create a array of cpu image options
 			let cpuImages = [
-				"/noun-fist-477914.svg",
-				"/noun-wave-477912.svg",
-				"/noun-scissors-477919.svg",
+				"noun-fist-477914.svg",
+				"noun-wave-477912.svg",
+				"noun-scissors-477919.svg",
 			];
 			//! set the CPU image  to a random option form the array of cpu image options
 			cpuResult.src = cpuImages[randomNumber];
