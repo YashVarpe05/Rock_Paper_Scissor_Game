@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+body {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f6f7fb;
+}
+.container {
+	padding: 5rem 9rem;
+	border-radius: 14px;
+	background-color: #f6f7fb;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.result_image {
+	display: flex;
+	column-gap: 8rem;
+}
+.result_image img {
+	width: 100px;
+}
+.user_result img {
+	transform: rotate(90deg);
+}
+.cpu_result img {
+	transform: rotate(-90deg) rotateY(180deg);
+}
+
+.result {
+	text-align: center;
+	font-size: 2rem;
+	color: #7d2ae8;
+	margin-top: 1.5rem;
+}
+
+.option_image img {
+	width: 80px;
+}
+
+.option_images {
+	display: flex;
+	align-items: center;
+	margin-top: 2.5rem;
+	justify-content: space-between;
+}
+.option_image {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	opacity: 0.5;
+	cursor: pointer;
+	transition: opacity 0.3s ease;
+}
+.option_image:hover {
+	opacity: 1;
+}
+.option_image.active {
+	opacity: 1;
+}
+
+.option_image img {
+	pointer-events: none;
+}
+.option_image p {
+	color: #7d2ae8;
+	font-size: 1.235rem;
+	margin-top: 1rem;
+	pointer-events: none;
+}
+
+.scissor {
+	transform: rotate(-90deg);
+	margin-bottom: 5px;
+}
+
+.container.start .user_result {
+	transform-origin: left;
+	animation: userShake 0.9s ease infinite;
+}
+@keyframes userShake {
+	50% {
+		transform: rotate(10deg);
+	}
+}
+
+.container.start .cpu_result {
+	transform-origin: right;
+
+	animation: cpuShake 0.9s ease infinite;
+}
+@keyframes cpuShake {
+	50% {
+		transform: rotate(-10deg);
+	}
+}
