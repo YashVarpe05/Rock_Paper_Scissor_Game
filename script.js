@@ -11,7 +11,7 @@ optionImage.forEach((image, index) => {
 	image.addEventListener("click", (e) => {
 		image.classList.add("active");
 
-		userResult.src = cpuResult.src = "/noun-fist-477914.svg";
+		userResult.src = cpuResult.src = "noun-fist-477914.svg";
 		result.textContent = " please Wait ....";
 		// ! loop through each option image again
 		optionImage.forEach((image2, index2) => {
