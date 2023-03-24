@@ -23,7 +23,3 @@
 =======
 
 # Rock_Paper_Scissor_Game
-
-# https://yashvarpe05.github.io/Rock_Paper_Scissor_Game/
-
-> > > > > > > 3b8c115669dae6ce0f6bb7d96ba591746a6a3ffb
