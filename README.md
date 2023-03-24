@@ -1,8 +1,10 @@
 # Rock_Paper_Scissor_Game
 ## https://yashvarpe05.github.io/Rock_Paper_Scissor_Game/
 
+## ScreenShot
+![Screenshot 2023-03-24 170558](https://user-images.githubusercontent.com/104847857/227519320-37d168f3-db32-48d7-822d-f31289da20f1.png)
 
-
+## Rules
 - Rock beats scissors, scissors beat paper, and paper beats rock.
 - Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”
 - Use rock, paper, scissors to settle minor decisions or simply play to pass the time
